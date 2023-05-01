@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form_main_box {
+  padding: 15px 12px !important;
+  background-color: rgb(168, 209, 235);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.form {
+  width: 70%;
+}
+
+.general_head {
+  background-color: rgb(52, 82, 133);
+  color: white;
+  padding: 5px 8px;
+  font-size: 16px;
+}
+
+.general_inp {
+  margin: 10px 20px;
+}
+
+.name_inp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-label {
+  font-size: 13px;
+}
+
+.name-label > span {
+  font-size: 10px;
+}
+
+.name {
+  width: 12px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.date_and_gender {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 13px;
+}
+
+.address_box {
+  display: flex;
+  font-size: 13px;
+}
+
+.address {
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  width: 100%;
+  font-size: 13px;
+}
+
+.number_and_email {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.number {
+  margin-right: 5px;
+  width: 50%;
+  display: flex;
+}
+
+.email {
+  margin-left: 5px;
+  width: 50%;
+  display: flex;
+}
+
+.number_and_email input {
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.status {
+  font-size: 13px;
+}
+
+.status > b {
+  margin-right: 10px;
+}
+
+.occupation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: 20px 0;
+}
+
+.occupation > div {
+  width: 48%;
+  overflow: hidden;
+}
+
+.occupation_inp {
+  border-style: none;
+  background-color: transparent;
+  border-bottom: 1px solid;
+}
+
+.B_main_box {
+  margin: 20px 0;
+  display: flex;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+.B_main_box > div {
+  border: 2px solid rgb(48, 187, 241);
+  width: 33.33%;
+  padding: 10px;
+  background-color: white;
+}
+
+.complete_span {
+  font-size: 13px;
+}
+
+.table_box {
+  font-size: 13px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table_box th {
+  border: 2px solid rgb(48, 187, 241);
+  background-color: white;
+  height: 20px;
+}
+
+.table_box td {
+  border: 2px solid rgb(48, 187, 241);
+  background-color: white;
+  height: 20px;
+}
+
+.address_boxx {
+  margin: 20px 0;
+}
+
+.last_box {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.last1 {
+  width: 60%;
+}
+
+.last2 {
+  width: 40%;
+}
